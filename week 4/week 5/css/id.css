@@ -1,0 +1,36 @@
+ *{
+    font-size: 30px;
+   /* background: linear-gradient(to left, pink,orange,black,purple); */
+   background-image:url("image.jpg") ;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+ }
+ #heading{
+    background-color: brown;
+    font-size: 80px;
+    color: white;
+    font-family:'Roboto Slab', serif;
+}
+
+.paragraph{
+background-color: cornflowerblue;
+font-size: 20px;
+color: whitesmoke;
+font-family: 'Poppins', sans-serif;
+}
+
+#p1{
+    background-color: chartreuse;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+#p2{
+    background-color: blue;
+font-size: 20px;
+color: white;
+font-family: 'Oswald', sans-serif;
+}

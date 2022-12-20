@@ -1,0 +1,37 @@
+img{
+   max-width: 100%;
+   height: auto;
+
+}
+p{
+    background-color: aliceblue;
+    font-size: 20px ;
+    color: black;
+    font-family:'Lora', serif;
+    font-weight: bold;
+}
+/*forlaptop*/
+@media screen and (min-width:769px) and (max-width: 1024px){
+    img{
+        max-width: 300px;
+        height: 300px;
+    }
+    p{
+        background-color: black;
+        font-size: 20px;
+        color:white;
+        font-family: 'Lora', serif;
+        font-weight: bold;
+    }
+
+
+}
+/*fortablet*/
+@media screen and (min-width:481px) and (max-width:768px){
+   
+   img{
+    max-width: 300px;
+    height: 300px;
+   }
+}
+    
