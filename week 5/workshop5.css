@@ -1,0 +1,46 @@
+/*to remove the gap from the top*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    background-color: #6d9773 ;/*use # to get the color from numbers*/
+    width:100%;
+    height: 100%;
+}
+/* vh is used in height to cover the visible part of the page*/
+.left{
+    overflow: hidden;
+    width: 50%;
+    height: 100vh;
+    position: relative;
+}
+/* either width or height should be kept auto to balance out (keep the orignal aspect ratio) of the image*/
+img{
+   height : 100%;
+   position: absolute;
+   left:-250px;
+}
+.right{
+    color: aliceblue;
+    padding: 100px;
+
+}
+.right-top{
+   
+    font-size: 70px;
+    font-weight: 700;
+}
+.right-bottom{
+    margin-top: 200px;/*for the words to be pushed down*/
+    font-size: 25px;
+    font-weight: 200px;
+}
+h4{
+    font-weight: 200;
+    line-height: 40px;
+}
